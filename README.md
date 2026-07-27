@@ -94,6 +94,55 @@ LICENSE
 ## 📸 Screenshots
 
 Project screenshots will be uploaded soon.
+---
+
+# 📸 Project Screenshots
+
+## 1. Wazuh Dashboard Overview
+
+![Wazuh Dashboard](01_Wazuh_Dashboard_Overview.png)
+
+---
+
+## 2. Wazuh Agent Status
+
+![Agent Status](02_Wazuh_Agent_Status.png)
+
+---
+
+## 3. Kali HTTP Server
+
+![Kali HTTP Server](03_Kali_HTTP_Server.png)
+
+---
+
+## 4. Ransom Test Setup
+
+![Ransom Test](04_Ransom_Test_Setup.png)
+
+---
+
+## 5. Ransomware Attack Execution
+
+![Attack Execution](04_Ransomware_Attack_Execution.png)
+
+---
+
+## 6. Encrypted (.locked) Files
+
+![Locked Files](05_Encrypted_Locked_Files.png)
+
+---
+
+## 7. Backup Recovery
+
+![Backup Recovery](06_Backup_Recovery.png)
+
+---
+
+## 8. File Integrity Monitoring
+
+![File Integrity Monitoring](08_File_Integrity_Monitoring.png)
 
 ---
 
