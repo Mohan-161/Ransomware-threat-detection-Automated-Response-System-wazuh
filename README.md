@@ -166,6 +166,34 @@ Project screenshots will be uploaded soon.
 
 ---
 
+## 💡 Skills Demonstrated
+
+- Security Monitoring
+- Endpoint Detection
+- SIEM Administration
+- Incident Response
+- File Integrity Monitoring
+- PowerShell Automation
+- Python Scripting
+- Linux Administration
+- Windows Security
+- Threat Detection
+- MITRE ATT&CK
+
+---
+
+## 🚀 Future Improvements
+
+- Integrate Sysmon for enhanced telemetry
+- Add Sigma detection rules
+- Integrate VirusTotal API
+- Deploy Wazuh Cluster
+- Support email notifications
+- Automate IOC enrichment
+
+---
+
+
 ## ⚠️ Disclaimer
 
 This project was developed in a controlled virtual lab environment for educational and research purposes only. No real systems were targeted.
