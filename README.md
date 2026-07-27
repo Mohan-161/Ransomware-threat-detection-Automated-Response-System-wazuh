@@ -18,7 +18,7 @@ The objective of this project is to detect ransomware activities, monitor endpoi
 # 🏗️ System Architecture
 
 <p align="center">
-  <img src="assets/Architecture_Diagram.png" alt="System Architecture Diagram" width="1000"/>
+  <img src="./assets/Architecture_Diagram.png" alt="System Architecture Diagram" width="1000"/>
 </p>
 
 The architecture demonstrates how the ransomware simulation is detected using Wazuh SIEM. The Windows endpoint is continuously monitored through the Wazuh Agent, PowerShell scripts, Python-based behavioral analysis, and SHA-256 File Integrity Monitoring (FIM). When suspicious activity is detected, an automated response is triggered to stop the malicious process, isolate the endpoint, notify the security analyst through Telegram, and generate alerts on the Wazuh Dashboard for incident investigation.
