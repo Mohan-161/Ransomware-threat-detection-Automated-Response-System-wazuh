@@ -38,11 +38,14 @@ The objective of this project is to detect ransomware activities, monitor endpoi
 - Ubuntu Server
 - Windows 11
 - Kali Linux
+- VMware Workstation
 - PowerShell
 - Python
-- SHA-256 Hashing
+- SHA-256 File Integrity Monitoring
+- Active Response
 - Telegram Bot API
-- VMware Workstation
+- MITRE ATT&CK Framework
+- Windows Event Logs
 
 ---
 
