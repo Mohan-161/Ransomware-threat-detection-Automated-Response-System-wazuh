@@ -1,3 +1,10 @@
+![Wazuh](https://img.shields.io/badge/Wazuh-SIEM-blue)
+![PowerShell](https://img.shields.io/badge/PowerShell-Automation-5391FE)
+![Python](https://img.shields.io/badge/Python-3.x-yellow)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04-E95420)
+![Windows](https://img.shields.io/badge/Windows-11-0078D6)
+![Kali Linux](https://img.shields.io/badge/Kali-Linux-557C94)
+![MIT License](https://img.shields.io/badge/License-MIT-green)
 # 🛡️ Ransomware Threat Detection and Automated Response System using Wazuh SIEM
 
 ## 📌 Project Overview
