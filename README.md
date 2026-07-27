@@ -83,15 +83,15 @@ LICENSE
 
 ## 🔄 Project Workflow
 
-1. Configure Wazuh Manager on Ubuntu Server.
-2. Connect Windows endpoint using Wazuh Agent.
-3. Simulate ransomware attack from Kali Linux.
-4. Detect malicious activities using Wazuh SIEM.
-5. Monitor CPU utilization and file integrity.
-6. Generate Telegram alerts.
-7. Automatically isolate the compromised endpoint.
-8. Analyze alerts through the Wazuh Dashboard.
-
+1. Configure Ubuntu Server as Wazuh Manager.
+2. Connect Windows 11 endpoint using Wazuh Agent.
+3. Launch ransomware simulation from Kali Linux.
+4. Monitor endpoint activities.
+5. Detect suspicious file modifications.
+6. Verify file integrity using SHA-256 hashing.
+7. Trigger Active Response.
+8. Generate security alerts.
+9. Recover files using backup script.
 ---
 
 ## 📸 Screenshots
