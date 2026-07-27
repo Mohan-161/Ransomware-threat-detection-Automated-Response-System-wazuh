@@ -5,6 +5,7 @@
 ![Windows](https://img.shields.io/badge/Windows-11-0078D6)
 ![Kali Linux](https://img.shields.io/badge/Kali-Linux-557C94)
 ![MIT License](https://img.shields.io/badge/License-MIT-green)
+
 # 🛡️ Ransomware Threat Detection and Automated Response System using Wazuh SIEM
 
 ## 📌 Project Overview
@@ -18,7 +19,7 @@ The objective of this project is to detect ransomware activities, monitor endpoi
 # 🏗️ System Architecture
 
 <p align="center">
-  <img src="./Architecture_Diagram.png" alt="System Architecture Diagram" width="1000"/>
+  <img src="diagrams/Architecture_Diagram.png" alt="System Architecture Diagram" width="1000">
 </p>
 
 The architecture demonstrates how the ransomware simulation is detected using Wazuh SIEM. The Windows endpoint is continuously monitored through the Wazuh Agent, PowerShell scripts, Python-based behavioral analysis, and SHA-256 File Integrity Monitoring (FIM). When suspicious activity is detected, an automated response is triggered to stop the malicious process, isolate the endpoint, notify the security analyst through Telegram, and generate alerts on the Wazuh Dashboard for incident investigation.
@@ -81,16 +82,22 @@ The architecture demonstrates how the ransomware simulation is detected using Wa
 
 ## 📂 Project Structure
 
-```
+```text
 docs/
     Project_Report.pdf
 
-screenshots/
-    (Project Screenshots)
+diagrams/
+    Architecture_Diagram.png
 
-scripts/
-    PowerShell Scripts
-    Python Scripts
+screenshots/
+    01_Wazuh_Dashboard_Overview.png
+    02_Wazuh_Agent_Status.png
+    03_Kali_HTTP_Server.png
+    04_Ransom_Test_Setup.png
+    05_Ransomware_Attack_Execution.png
+    06_Encrypted_Locked_Files.png
+    07_Backup_Recovery.png
+    08_File_Integrity_Monitoring.png
 
 README.md
 LICENSE
@@ -109,70 +116,56 @@ LICENSE
 7. Trigger Active Response.
 8. Generate security alerts.
 9. Recover files using backup script.
----
 
-## 📸 Screenshots
-
-Project screenshots will be uploaded soon.
 ---
 
 # 📸 Project Screenshots
 
 ## 1. Wazuh Dashboard Overview
 
-![Wazuh Dashboard](01_Wazuh_Dashboard_Overview.png)
+![Wazuh Dashboard](screenshots/01_Wazuh_Dashboard_Overview.png)
 
 ---
 
 ## 2. Wazuh Agent Status
 
-![Agent Status](02_Wazuh_Agent_Status.png)
+![Agent Status](screenshots/02_Wazuh_Agent_Status.png)
 
 ---
 
 ## 3. Kali HTTP Server
 
-![Kali HTTP Server](03_Kali_HTTP_Server.png)
+![Kali HTTP Server](screenshots/03_Kali_HTTP_Server.png)
 
 ---
 
 ## 4. Ransom Test Setup
 
-![Ransom Test](04_Ransom_Test_Setup.png)
+![Ransom Test](screenshots/04_Ransom_Test_Setup.png)
 
 ---
 
 ## 5. Ransomware Attack Execution
 
-![Attack Execution](04_Ransomware_Attack_Execution.png)
+![Attack Execution](screenshots/05_Ransomware_Attack_Execution.png)
 
 ---
 
 ## 6. Encrypted (.locked) Files
 
-![Locked Files](05_Encrypted_Locked_Files.png)
+![Locked Files](screenshots/06_Encrypted_Locked_Files.png)
 
 ---
 
 ## 7. Backup Recovery
 
-![Backup Recovery](06_Backup_Recovery.png)
+![Backup Recovery](screenshots/07_Backup_Recovery.png)
 
 ---
 
 ## 8. File Integrity Monitoring
 
-![File Integrity Monitoring](08_File_Integrity_Monitoring.png)
-
----
-
-## 🚀 Future Enhancements
-
-- Email alert integration
-- Machine learning-based ransomware detection
-- Cloud SIEM integration
-- Endpoint forensic analysis
-- Threat intelligence integration
+![File Integrity Monitoring](screenshots/08_File_Integrity_Monitoring.png)
 
 ---
 
@@ -203,7 +196,6 @@ Project screenshots will be uploaded soon.
 
 ---
 
-
 ## ⚠️ Disclaimer
 
 This project was developed in a controlled virtual lab environment for educational and research purposes only. No real systems were targeted.
@@ -216,5 +208,4 @@ This project was developed in a controlled virtual lab environment for education
 
 Cyber Security | SOC Analyst | Blue Team | Wazuh SIEM | Incident Response
 
-GitHub:
-https://github.com/Mohan-161
+**GitHub:** https://github.com/Mohan-161
